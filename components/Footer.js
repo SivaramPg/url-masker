@@ -50,7 +50,7 @@ export default function Footer() {
           <br />
           <br />
           <p>
-            &#169; 2020-present Sivaram Pandariganthan. All Rights Reserved.
+            &#169; 2021-present Sivaram Pandariganthan. All Rights Reserved.
           </p>
         </div>
         <div>
