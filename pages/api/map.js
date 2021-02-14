@@ -13,7 +13,7 @@ export default async (req, res) => {
 
       res.status(200).json({ identifier });
     } else {
-      throw new Error('Not found');
+      res.status(404).json({ error: 'Not Found' });
     }
   } catch (error) {
     console.error(error);
