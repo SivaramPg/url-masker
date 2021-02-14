@@ -1,0 +1,24 @@
+{
+  "build": {
+    "env": {
+      "FIREBASE_PROJECT_ID": "@firebase-project-id"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/m/:id",
+      "destination": "/api/:id",
+      "permanent": false
+    },
+    {
+      "source": "/gh",
+      "destination": "https://github.com/SivaramPg",
+      "permanent": true
+    },
+    {
+      "source": "/view-source",
+      "destination": "https://github.com/SivaramPg/url-masker",
+      "permanent": true
+    }
+  ]
+}
