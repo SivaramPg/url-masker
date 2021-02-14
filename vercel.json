@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "FIREBASE_PROJECT_ID": "@firebase-project-id"
+      "FIREBASE_PROJECT_ID": "@NEXT_PUBLIC_FIREBASE_PROJECT_ID"
     }
   },
   "redirects": [
