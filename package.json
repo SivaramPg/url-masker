@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "firebase-admin": "^9.5.0",
     "next": "10.0.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.2.1"
   }
 }
