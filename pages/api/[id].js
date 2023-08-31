@@ -1,5 +1,7 @@
 import db from '../../utils/db';
 
+export const config = { runtime: 'edge' };
+
 export default async function handler(req, res) {
   try {
     if (req.method === 'GET') {

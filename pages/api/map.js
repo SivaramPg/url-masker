@@ -1,6 +1,8 @@
 import db from '../../utils/db';
 import uniqueIdentifier from '../../utils/uniqueIdentifier';
 
+export const config = { runtime: 'edge' };
+
 export default async (req, res) => {
   try {
     if (req.method === 'POST') {
