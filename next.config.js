@@ -1,4 +1,7 @@
 module.exports = {
+  experimental: {
+    runtime: 'edge',
+  },
   async redirects() {
     return [
       {
